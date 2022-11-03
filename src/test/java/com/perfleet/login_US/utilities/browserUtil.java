@@ -17,6 +17,7 @@ public class browserUtil {
     public static void waitUntilLoadingBarDisappeared(WebElement element, int time) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), time);
         wait.until(ExpectedConditions.invisibilityOf(element));
+
     }
 
 

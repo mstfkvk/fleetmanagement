@@ -48,7 +48,6 @@ public class _1_login {
         } else {
             Assert.assertEquals("username is empty", string, loginPage.usernameField.getAttribute("validationMessage"));
         }
-
     }
 
     @Then("user cannot be able to login")

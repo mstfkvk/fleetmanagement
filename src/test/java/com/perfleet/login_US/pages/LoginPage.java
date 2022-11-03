@@ -19,10 +19,10 @@ public class LoginPage extends BasePage {
     public WebElement passwordField;
 
     @FindBy(className = "custom-checkbox__icon")
-    public WebElement rememberMeCheckBox;
+    public static WebElement rememberMeCheckBox;
 
     @FindBy(xpath = "//a[@href='/user/reset-request']")
-    public WebElement forgotYourPasswordLink;
+    public static WebElement forgotYourPasswordLink;
 
     @FindBy(id = "_submit")
     public WebElement loginBtn;
