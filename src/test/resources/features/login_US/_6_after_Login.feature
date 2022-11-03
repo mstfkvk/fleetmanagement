@@ -1,12 +1,14 @@
 
-  Feature: User can see his own "username" (what he types in the username field) in the profile menu, after login
+  Feature: User can see his own "username" (what he types in the username field)
+    in the profile menu, after login
 
     Scenario Template:AC-7
-      When user login successfully with "<username>"
+      When user is on the login page
+      And user login successfully with "<username>"
       Then user should see "<username>" in the profile menu
 
       Examples:
       |username|
-      |user123|
+      |user1|
       |salesmanager101|
       |storemanager51|

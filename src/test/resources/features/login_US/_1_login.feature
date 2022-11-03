@@ -32,7 +32,7 @@ Feature: As a user, I should be able to login.
 
   Scenario Template:AC-2-b Warning Messages, While logging in
     When user is on the login page
-    And user types "<username>" and "<password>" and clicks3
+    And user types "<username>" and "<password>" and clicks2
     Then user should see "<message>"1
 
     Examples:
