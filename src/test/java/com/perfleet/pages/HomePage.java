@@ -1,6 +1,5 @@
 package com.perfleet.pages;
 
-import com.perfleet.login_US.utilities.ConfigurationReader;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

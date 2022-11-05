@@ -1,10 +1,10 @@
 package com.perfleet.step_definitions.login_US;
 
 
-import com.perfleet.login_US.utilities.ConfigurationReader;
-import com.perfleet.login_US.utilities.Driver;
 import com.perfleet.pages.HomePage;
 import com.perfleet.pages.LoginPage;
+import com.perfleet.utilities.ConfigurationReader;
+import com.perfleet.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

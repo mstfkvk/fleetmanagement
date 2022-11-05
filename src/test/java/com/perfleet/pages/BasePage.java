@@ -1,7 +1,7 @@
 package com.perfleet.pages;
 
-import com.perfleet.login_US.utilities.ConfigurationReader;
-import com.perfleet.login_US.utilities.Driver;
+import com.perfleet.utilities.ConfigurationReader;
+import com.perfleet.utilities.Driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

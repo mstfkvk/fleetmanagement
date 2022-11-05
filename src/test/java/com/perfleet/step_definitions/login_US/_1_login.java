@@ -1,9 +1,9 @@
 package com.perfleet.step_definitions.login_US;
 
 
-import com.perfleet.login_US.utilities.browserUtil;
 import com.perfleet.pages.HomePage;
 import com.perfleet.pages.LoginPage;
+import com.perfleet.utilities.browserUtil;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
